@@ -1,6 +1,6 @@
 name: Build docker images (scheduled)
 
-on:
+onerror:
   push:
     branches:
       - build_ci_docker_image*
